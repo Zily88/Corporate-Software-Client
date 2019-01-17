@@ -2,7 +2,7 @@ import winreg
 
 
 path_64 = r'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
-hkey = winreg.HKEY_LOCAL_MACHINE
+hkey = winreg.HKEY_CURRENT_USER
 
 with winreg.OpenKey(hkey, path_64) as main_key64:
     with open('soft64.txt', 'w', encoding='utf-8') as outstream:
