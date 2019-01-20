@@ -1,6 +1,6 @@
 import subprocess
 
-proc = subprocess.Popen(['powershell', 'chcp 65001 ; ' # Сменил кодировку, прогнал два реестра (опять тоже самое) и добавил ms store
+proc = subprocess.Popen(['powershell', 'chcp 65001 ; '  # РЎС‚Р°РЅРґР°СЂС‚РЅС‹Рµ РїРѕРІРµСЂС€РµР»Р» Р·Р°РїСЂРѕСЃС‹ + ms store
                         'Get-ItemProperty HKLM:\\Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*'
                         ' | Select-Object DisplayName, DisplayVersion, Publisher, InstallDate | Format-Table -AutoSize ;'
                         ' Get-ItemProperty HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\* '

@@ -1,0 +1,24 @@
+[
+  {
+    "OS": {
+      "type": "Windows",
+      "version": "10.0.17763"
+    },
+    "machine_name": "DESKTOP-VHMFHQR",
+    "username": "bladu",
+    "soft": [
+      {
+        "DisplayName": "JetBrains PyCharm Community Edition 2018.3.3",
+        "DisplayVersion": "183.5153.39"
+      },
+      {
+        "DisplayName": "Google Chrome",
+        "DisplayVersion": "71.0.3578.98"
+      },
+      {
+        "DisplayName": "Microsoft Visual C++ 2017 x86 Minimum Runtime - 14.14.26429",
+        "DisplayVersion": "14.14.26429"
+      }
+    ]
+  }
+]
